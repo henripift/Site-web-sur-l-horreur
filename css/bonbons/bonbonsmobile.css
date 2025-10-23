@@ -1,0 +1,75 @@
+@media (max-width : 768px) {
+    #bonbons h1 {
+        font-size: 2rem;
+    }
+
+    #bonbons .d-flex {
+        margin-top:2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 1.25rem;
+    }
+
+    #bonbons .d-flex div{
+        max-width: 320px;
+        min-width: 275px;
+    }
+
+    #bonbons .d-flex img {
+        max-width: 125px;
+        max-height: 100px;
+    }
+
+}
+
+@media (max-width : 430px) {
+    #bonbons h1 {
+        font-size: 1.5rem;
+    }
+
+    #bonbons .nom {
+        font-size: 1rem;
+    }
+
+    #bonbons p {
+        font-size: 0.8rem;
+    }
+
+    #bonbons .d-flex {
+        margin-top:2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 0.75rem;
+    }
+
+    #bonbons .d-flex div{
+        max-width: 150px;
+        min-width: 150px;
+    }
+
+    #bonbons .d-flex img {
+        max-width: 95px;
+        max-height: 100px;
+    }
+}
+
+@media (max-width : 375px) {
+
+    #bonbons .nom {
+        font-size: 0.8rem;
+    }
+
+    #bonbons p {
+        font-size: 0.65rem;
+    }
+
+    #bonbons .d-flex div{
+        max-width: 120px;
+        min-width: 120px;
+    }
+
+    #bonbons .d-flex img {
+        max-width: 70px;
+        max-height: 850px;
+    }
+}

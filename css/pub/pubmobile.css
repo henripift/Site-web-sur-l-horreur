@@ -1,0 +1,48 @@
+@media (max-width : 768px) {
+
+}
+
+@media (max-width : 430px) {
+    #pub .row {
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
+
+    #pub img {
+        max-width: 55%;
+    }
+
+    #pub p {
+        font-size: 1rem;
+        max-width: 75%;
+    }
+
+    #pub button {
+        width: 85%;
+        height: 30%;
+    }
+
+    #pub a {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width : 375px) {
+    #pub img {
+        max-width: 75%;
+    }
+
+    #pub p {
+        font-size: 0.9rem;
+        max-width: 85%;
+    }
+
+    #pub button {
+        width: 85%;
+        height: 20%;
+    }
+
+    #pub a {
+        font-size: 0.55rem;
+    }
+}

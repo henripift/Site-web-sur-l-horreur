@@ -1,0 +1,75 @@
+@media (max-width : 768px) {
+    #nouveautes .d-flex {
+        gap: 2rem;
+    }
+
+    #nouveautes .p-2 {
+        width: 45%;
+    }
+
+    #nouveautes .nom{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    #nouveautes img {
+        max-width: 30%;
+        max-height: 30%;
+    }
+
+    #nouveautes .p-2 div:last-child {
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 1rem;
+    }
+
+    #nouveautes .new {
+        width: 25%;
+    }
+}
+
+@media (max-width : 430px) {
+     #nouveautes .d-flex {
+        gap: 0rem;
+    }
+
+    #nouveautes .p-2 {
+        width: 55%;
+    }
+
+    #nouveautes p{
+        font-size: 0.75rem;
+    }
+
+    #nouveautes img {
+        max-width: 40%;
+        max-height: 40%;
+    }
+
+    #nouveautes .p-2 div:last-child {
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        gap: 0.5rem;
+    }
+
+    #nouveautes .new {
+        width: 30%;
+    }
+}
+
+@media (max-width : 375px) {
+    
+    #nouveautes .nom{
+        font-size: 0.75rem;
+    }
+
+    #nouveautes .new {
+        width: 35%;
+    }
+    #nouveautes img {
+        max-width: 45%;
+        max-height: 45%;
+    }
+}

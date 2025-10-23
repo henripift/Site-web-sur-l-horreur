@@ -1,0 +1,64 @@
+#bonbons {
+    padding-top: 105px;
+    text-align: center;
+}
+
+#bonbons h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#bonbons .d-flex {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 2.25rem;
+}
+
+
+
+#bonbons .d-flex div{
+    background: linear-gradient(to right, rgb(1, 110, 1),green, green, green, rgba(224, 158, 35, 0.781));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    min-width: 200px;
+}
+
+#bonbons .d-flex img {
+    max-width: 120px;
+    max-height: 100px;
+}
+
+#bonbons .d-flex .nom, .d-flex .categorie, .d-flex .prix{
+    margin: 0;
+}
+
+#bonbons .nom{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+#bonbons .prix {
+    font-weight: bold;
+}
+
+@media (min-width: 1920px) {
+    #bonbons .d-flex div{
+        max-width: 300px;
+        min-width: 250px;
+    }
+
+    #bonbons .d-flex img {
+        max-width: 220px;
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+}

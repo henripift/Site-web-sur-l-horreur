@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to right, green, green, rgba(224, 158, 35, 0.781));
+    font-family: Arial;    
+    font-size: 16px;
+    color: white;
+    padding-top: 50px; /* Compense la navbar fixed */
+}
+
+#accueil, #suiteaccueil, #propos, #bonbons, #nouveautes {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Le fond de la navbar est transparent */
+.navbar-inner {
+    background: transparent;
+}
+
+.navbar {
+    position: fixed; /* pour que la navbar soit collée en haut de la page */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.navb a:first-child{display: block;}
+.navb a:last-child{display: none;}
+
+.navbar a {
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    gap: 5rem;
+}
+
+.navbar ul li:last-child{
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.navbar ul li:last-child:hover {
+    border-color: orange;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: orange;
+}

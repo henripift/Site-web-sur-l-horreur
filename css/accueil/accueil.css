@@ -1,0 +1,124 @@
+#accueil {
+    padding-top: 55px;
+}
+
+
+#accueil .carousel-item {
+    width: 100%;
+}
+
+/* Image au centre de sa colonne */
+.carousel img {
+    display: block;
+    margin: 0 auto;
+    margin-top: -3%;
+    width: 22rem;
+}
+
+/* Ecartement de 4% du carousel de la navbar */
+.carousel .row div{
+    margin-top: 4%;
+}
+
+/* \/ \/ \/ CSS de la première colonne de la page \/ \/ \/
+
+/* Le texte de la première colonne de la page est placé à droite */
+.carousel .row div:first-child { /*Je rentre dans la première colonne de la page */
+    text-align: end;
+}
+
+
+.carousel .row div:first-child p:first-child {
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 0;
+}
+
+.barre {
+    position: absolute;
+    border-right: 2px solid white;
+    height: 5vh;
+    top: 20%; /* Distance du haut en % */
+    left: 45%; /* Distance de la droite en % */
+}
+
+
+
+/* \/ \/ \/ Deuxième colonne de la page \/ \/ \/ */
+#accueil h1,#accueil h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#accueil h1 {
+    font-size: 3.5rem;
+    max-width: 800px; /* Le texte reviendra à la ligne naturellement */
+    line-height: 1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#accueil p, a {
+    color: lightgray;
+    font-size: 1.5rem;
+}
+
+button a{
+    color: white;
+}
+
+button {
+    width: 15vw;
+    margin-right: 2.5%;
+}
+
+
+/* \/\/\/ Médias queries pour des plus grand écrans */
+@media (min-width: 1400px) {
+    .carousel .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    .carousel img {
+        width: 25rem;
+    }
+    
+    #accueil h1 {
+        font-size: 4rem;
+    }
+    
+    button {
+        width: 12vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    #accueil .carousel-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 500px;
+    }
+
+    .carousel .container {
+        max-width: 1600px;
+    }
+    
+    .carousel img {
+        width: 28rem;
+    }
+    
+    #accueil h1 {
+        font-size: 4.5rem;
+    }
+    
+    #accueil p, #accueil a {
+        font-size: 1.3rem;
+    }
+    
+    button {
+        width: 10vw;
+    }
+}

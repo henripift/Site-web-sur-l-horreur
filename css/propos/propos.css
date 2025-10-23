@@ -1,0 +1,42 @@
+#propos {
+    padding-top: 105px;
+}
+
+
+#propos h1, #propos p {
+    margin-left: 10%;
+    max-width: 75%;
+}
+
+#propos h1 {
+    margin-top: 15%;
+    font-weight: bold;
+}
+
+#propos p {
+    margin-top: 5%;
+}
+
+#propos button {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#propos img {
+    display: block;
+    margin: 0 auto;
+    max-width: 55%;
+}
+
+@media (min-width: 1920px) {
+    #propos h1{
+        font-size: 5rem;
+    }
+    #propos p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+}

@@ -1,0 +1,107 @@
+#nouveautes {
+    padding-top: 155px;
+    text-align: center;
+}
+
+#nouveautes h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+#nouveautes .carousel-item {
+    width: 100%;
+}
+
+#nouveautes .p-2 {
+    background: linear-gradient(to right, rgb(1, 110, 1),green, green, green, rgba(224, 158, 35, 0.781));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    border-radius: 25px;
+}
+
+#nouveautes .d-flex {
+    gap: 2rem;
+}
+
+#nouveautes .p-2 {
+    width: 30%;
+}
+
+#nouveautes .nom{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#nouveautes img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#nouveautes .p-2 div:last-child {
+    display: flex;
+    justify-content: center;
+}
+
+#nouveautes .p-2 p {
+    margin: 0;
+}
+
+#nouveautes .nom{
+    font-weight: bold;
+}
+
+#nouveautes .p-2 div:first-child {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#nouveautes .p-2 div:last-child {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 1rem;
+}
+
+#nouveautes .new {
+    width: 12%;
+    border-radius: 2px;
+    background-color: orange;
+}
+
+#nouveautes .prix2 {
+    color: orange;
+    text-decoration: line-through;
+}
+
+#nouveautes .categorie {
+    color: lightgray;
+}
+
+@media (min-width: 1920px) {
+    #nouveautes .carousel-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 500px;
+    }
+
+    #nouveautes .d-flex {
+        gap: 5rem;
+    }
+
+    #nouveautes .p-2 {
+        width: 40%;
+    }
+
+    #nouveautes .nom{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #nouveautes img {
+        max-width: 30%;
+        max-height: 30%;
+    }
+
+    
+}

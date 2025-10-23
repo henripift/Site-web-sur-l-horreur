@@ -1,0 +1,57 @@
+/* Pour le carousel */
+.carousel img:hover {
+    width: 24rem;
+    transition: all 1s ease-out;
+}
+
+.carousel img {
+    transition: all 1s ease-out;
+}
+
+@media (min-width: 1920px) {
+    .carousel img:hover {
+        width: 29rem;
+        transition : all 1s ease-out;
+    }
+}
+
+/* Pour la section bonbons */
+#bonbons .d-flex div {
+    transition: all 1s ease-in-out;
+}
+
+#bonbons .d-flex div:hover{
+    transition: all 1s ease-in-out;
+    max-width: 250px;
+    min-width: 220px;
+}
+
+@media (min-width: 1920px) {
+    #bonbons .d-flex div:hover{
+        transition: all 1s ease-in-out;
+        max-width: 300px;
+        min-width: 275px;
+    }
+
+}
+
+/* Pour la pub */
+
+#pub .row {
+    transition: all 1s ease-in-out;
+}
+
+#pub .row:hover {
+    transition: all 1s ease-in-out;
+    transform: translate(10px, -10px);
+}
+
+/* Pour les boutons du site */
+button {
+    transition: all 1s ease-in-out;
+}
+
+button:hover {
+    transition: all 1s ease-in-out;
+    width: 210px;
+}

@@ -1,0 +1,32 @@
+@media (max-width : 768px) {
+    footer .row div {
+        margin-bottom: 25px;
+    }
+
+    footer h5, footer p, footer a{
+        font-size: 1rem;
+    }
+
+    footer .imgfooter1, footer .imgfooter2{
+        width: 9rem;
+    }
+
+    footer .imgfooter1 {
+        left: 70%;
+        top: 620%;
+    }
+
+    footer .imgfooter2 {
+        right: -9%;
+        top: 580%;
+    }
+
+}
+
+@media (max-width : 430px) {
+
+}
+
+@media (max-width : 375px) {
+
+}

@@ -1,0 +1,71 @@
+#pub {
+    padding: 105px;
+    min-height: 50vh;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#pub .row {
+    background: linear-gradient(to right, rgb(1, 110, 1),green, green, green, rgba(224, 158, 35, 0.781));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    border-radius: 25px;
+    max-width: 65%;
+    min-height: 250px;
+}
+#pub .row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#pub img {
+    max-width: 55%;
+}
+
+#pub p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    max-width: 85%;
+}
+
+#pub button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 30%;
+}
+
+#pub a {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+@media (min-width: 1920px) {
+    #pub .row {
+        max-width: 65%;
+        margin-bottom: 10%;
+    }
+
+    #pub img {
+        max-width: 55%;
+    }
+
+    #pub p {
+        font-size: 2rem;
+        max-width: 75%;
+    }
+
+    #pub button {
+        width: 45%;
+        height: 20%;
+    }
+
+    #pub a {
+        font-size: 1rem;
+    }
+}

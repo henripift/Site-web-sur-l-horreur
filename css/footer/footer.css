@@ -1,0 +1,78 @@
+footer {
+    padding-left: 20px;
+}
+
+footer h5, footer p, footer a{
+    font-size: 1.5rem;
+    margin: 5px;
+    max-width: 300px;
+    color: lightgray;
+}
+
+footer h5 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer .row div:first-child div {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+footer .row div:first-child div p {
+    color: white;
+}
+
+footer .imgfooter1, footer .imgfooter2{
+    width: 10rem;
+}
+
+footer .imgfooter1 {
+    display: block;
+    position: absolute;
+    left: 10%;
+}
+
+footer .imgfooter2 {
+    display: block;
+    position: absolute;
+    right: -3%;
+}
+
+footer div:last-child {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .imgfooter2 {
+    top: 600%;
+}
+
+footer div:last-child p{
+    font-size: 0.8rem;
+    display: block;
+    position: absolute;
+    top: 645%;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1920px) {
+    footer .imgfooter1, footer .imgfooter2{
+        width: 10rem;
+    }
+
+    footer .imgfooter2 {
+        right: -3%;
+        top: 580%;
+    }
+
+    footer div:last-child p {
+        top: 610%;
+    }
+}
+
+
+

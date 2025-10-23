@@ -1,0 +1,145 @@
+@media (min-width: 1400px) {
+    #suiteaccueil {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    #suiteaccueil .d-flex div {
+        max-width: 400px;
+    }
+    
+    #suiteaccueil img {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 1920px) {
+    #suiteaccueil {
+        max-width: 1600px;
+    }
+    
+    #suiteaccueil h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+    .barre {
+        top: 10%;
+        right: 15%;
+    }
+}
+
+@media (max-width : 768px) {
+
+    body {
+        overflow: visible;
+    }
+
+    
+
+    .navbar ul {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Cette ligne centre tous les li */
+    }
+
+    .navb a:first-child{display: none;}
+    .navb a:last-child{display: block;}
+
+    .navimg {
+        width: 10rem;
+    }
+
+    .nav-link.active {
+        max-width: 100px;
+    }
+
+    .navbar ul li:last-child{
+        max-width: 200px;
+    }
+
+    .carousel .row div:last-child {
+        margin-top: -2%;
+    }
+
+    .barre {
+        top: 10%; 
+        left: 90%;
+    }
+
+        /* Image au centre de sa colonne */
+    .carousel img {
+        display: block;
+        margin: 0 auto;
+        margin-top: -3%;
+        margin-bottom: 3%;
+        width: 20rem;
+    }   
+
+    #accueil button {
+        width: 30vw;
+        margin-right: 2.5%;
+    }
+
+}
+
+@media (max-width : 430px) {
+    .navimg {
+        width: 7rem;
+    }
+
+    .carousel img {
+        width: 17rem;
+    }    
+
+    #accueil h1 {
+        font-size: 3rem;
+        max-width: 25rem; /* Le texte reviendra à la ligne naturellement */
+        line-height: 1;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #accueil h3 {
+        font-size: 1.5rem;
+        max-width: 20rem; /* Le texte reviendra à la ligne naturellement */
+    }
+
+    #accueil p, #accueil a {
+        color: lightgray;
+        font-size: 1rem;
+        max-width: 20rem; /* Le texte reviendra à la ligne naturellement */
+    }
+}
+
+@media (max-width : 375px) {
+
+    .navimg {
+        width: 3rem;
+    }
+
+    .carousel img {
+        width: 14rem;
+    }  
+
+    #accueil h1 {
+        font-size: 2rem;
+        max-width: 25rem; /* Le texte reviendra à la ligne naturellement */
+        line-height: 1;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #accueil h3 {
+        font-size: 1rem;
+        max-width: 20rem; /* Le texte reviendra à la ligne naturellement */
+    }
+
+    #accueil p, a {
+        color: lightgray;
+        font-size: 0.75rem;
+        max-width: 20rem; /* Le texte reviendra à la ligne naturellement */
+    }
+}

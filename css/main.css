@@ -1,0 +1,33 @@
+/* CSS du site entier */
+@import url(style.css);
+
+/* CSS de la page d'accueil */
+@import url(accueil/accueil.css);
+@import url(accueil/accueilmobile.css);
+
+/* CSS de la suite de l'accueil */
+@import url(accueil/suiteaccueil.css);
+@import url(accueil/suiteaccueilmobile.css);
+
+/* CSS de la page "à propos" */
+@import url(propos/propos.css);
+@import url(propos/proposmobile.css);
+
+/* CSS de la page "bonbons" */
+@import url(bonbons/bonbons.css);
+@import url(bonbons/bonbonsmobile.css);
+
+/* CSS de la pub */
+@import url(pub/pub.css);
+@import url(pub/pubmobile.css);
+
+/* CSS de la page "nouveautés" */
+@import url(nouveautes/nouveautes.css);
+@import url(nouveautes/nouveautesmobile.css);
+
+/* CSS du footer */
+@import url(footer/footer.css);
+@import url(footer/footermobile.css);
+
+/* CSS pour des petites animations sympas */
+@import url(animations.css);

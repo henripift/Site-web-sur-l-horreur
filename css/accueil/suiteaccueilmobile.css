@@ -1,0 +1,40 @@
+@media (max-width : 768px) {
+    #suiteaccueil .d-flex {
+        flex-wrap: wrap;
+        max-width: 760px;
+    }
+}
+
+@media (max-width : 640px) {
+    #suiteaccueil .d-flex div{
+        max-width: 200px;
+    }
+}
+
+@media (max-width : 430px) {
+
+    #suiteaccueil .d-flex div{
+        max-width: 150px;
+    }
+
+    #suiteaccueil img {
+        max-width: 6rem;
+    }
+
+    #suiteaccueil h2, #suiteaccueil .p-2 p:nth-child(2){
+        font-size: 1.5rem;
+    }
+    #suiteaccueil .p-2 p:last-child {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width : 375px) {
+    #suiteaccueil .d-flex div{
+        max-width: 125px;
+    }
+
+    #suiteaccueil img {
+        max-width: 5rem;
+    }
+}
